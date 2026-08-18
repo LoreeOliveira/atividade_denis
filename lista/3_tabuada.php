@@ -1,0 +1,9 @@
+<?php
+//Laço FOR (para)
+$numero = 7;
+echo "<h2>Tabuada</h2>";
+
+for($i = 1; $i <= 10; $i++) {
+    echo "$numero x $i = " . ($numero * $i) . "<br>";
+}
+?>
